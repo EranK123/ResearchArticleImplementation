@@ -66,4 +66,4 @@ def stringlist_to_intlist(str_list):
 
 if __name__ == '__main__':
     app.config['SECRET_KEY'] = 'fnehauildagsukl'
-    app.run(debug=True, host='127.0.0.1', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5555)
