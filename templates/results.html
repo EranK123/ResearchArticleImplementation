@@ -1,0 +1,15 @@
+<body>
+<div class="Results">
+    <p style="color: blue; font-size: 500%;"><b>Results</b></p>
+    <ol style="font-size: 200%;">
+        {% for graph in results %}
+            <li>graph: {{ graph }}</li>
+        {% endfor %}
+    </ol>
+    <div class="content-section">
+        <form method="POST" action="">
+            <p> {{ b.b() }}</p>
+        </form>
+    </div>
+</div>
+</body>

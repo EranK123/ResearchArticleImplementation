@@ -1,0 +1,14 @@
+<body>
+<div class="main_page">
+    <p style="color: blue; font-size: 350%;"><b>Dividing A Graphical Cake</b> </p>
+      <div class="content-section">
+        <form method="POST" action="" style="font-size: 200%;">
+            {{ form.hidden_tag() }}
+            <p>{{ form.agent1_valuations.label }}: {{ form.agent1_valuations(size=30) }}</p>
+            <p>{{ form.agent2_valuations.label }}: {{ form.agent2_valuations(size=30) }}</p>
+            <p>{{ form.graph.label }}: {{ form.graph(size=30) }}</p>
+            <p> {{ form.submit() }}</p>
+        </form>
+    </div>
+</div>
+</body>
