@@ -1,5 +1,4 @@
 networkx>=2.8.8
-networkx @ https://github.com/EranK123/networkx
 flask~=2.2.2
 flask_wtf
 WTForms~=3.0.1
